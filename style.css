@@ -27,19 +27,15 @@ h3 {
 
 }
 .portfolio-category {
-    font-size: 14px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    color: #777;
-    margin-top: 5px;
+    font-size: 16px;
+        font-family: Roboto;
+        font-weight: 400;
 }
 
 .portfolio-heading {
-    font-size: 24px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;
-    color: #fff;
-    margin-top: 10px;
+    font-size: 20px;
+        font-family: Roboto;
+        font-weight: 500;
 }
 
 .portfolio-filter {
