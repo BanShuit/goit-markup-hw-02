@@ -53,17 +53,17 @@ h3 {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
 }
-.all{
+.All{
     color: white;
         font-size: 16px;
         font-family: 'Roboto', sans-serif;
 }
-.web-site {
+.Website {
     color: #4D5AE5;
         font-size: 16px;
         font-family: Roboto;
 }
-.app {
+.App {
     color: #4D5AE5;
         font-size: 16px;
         font-family: Roboto;
@@ -78,7 +78,7 @@ color: #4D5AE5;
         font-size: 16px;
         font-family: Roboto;
 }
-.Protfolio-button{
+.protfolio-button{
     font-family: "Roboto", sans-serif ; 
     font-weight: 500;
     font-size: 16px;
@@ -86,8 +86,7 @@ color: #4D5AE5;
     letter-spacing: 0.04em;
     color: #4D5AE5;
     background-color: #f4f4f4;
-    style:"cursor:pointer"
-    
+cursor: pointer;
 }
 
 .nav-logo {
@@ -146,7 +145,7 @@ color: #4D5AE5;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(#4D5AE5);
+    color: (#4D5AE5);
     text-decoration: none;
 }
 
