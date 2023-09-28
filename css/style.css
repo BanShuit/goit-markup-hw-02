@@ -22,13 +22,13 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    color: #434455;
-        background-color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    color: var(rebeccapurple);
+    background-color: var(#4D5AE5);
 }
 
 :root {
-    --primary-color: #434455;
+    --text-color: #434455;
     --background-color: #FFFFFF;
 }
 
