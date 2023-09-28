@@ -23,7 +23,7 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    color: var(rebeccapurple);
+    color:#2E2F42;
     background-color: #F4F4FD;
 }
 
@@ -78,7 +78,7 @@ color: #4D5AE5;
         font-size: 16px;
         font-family: Roboto;
 }
-.protfolio-button{
+.portfolio-button{
     font-family: "Roboto", sans-serif ; 
     font-weight: 500;
     font-size: 16px;
@@ -121,12 +121,18 @@ cursor: pointer;
 }
 
 .address .list {
-    list-style: none;
+        color: #4D5AE5;
+        font-size: 16px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.64px;
+        word-wrap: break-word
 }
 .list-item-link {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--link-color, #434455);
+    color:  #434455;
     text-decoration: none;
 }
 
@@ -145,7 +151,7 @@ cursor: pointer;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: (#4D5AE5);
+    color: #4D5AE5;
     text-decoration: none;
 }
 
