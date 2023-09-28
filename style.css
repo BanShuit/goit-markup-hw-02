@@ -9,9 +9,9 @@
 }
 
 body {
-    font-family: var(--main-font-family);
+    font-family: "Roboto", sans-serif,
     color: var(--text-color);
-    background-color: var(--background-color);
+    background-color: #434445;
 }
 
 :root {
@@ -133,11 +133,11 @@ h3 {
 }
 
 .logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
+    font-family: "Roboto" ;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.32px;
     text-transform: uppercase;
     color: #4D5AE5;
     text-decoration: none;
