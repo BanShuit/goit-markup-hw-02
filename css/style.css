@@ -46,45 +46,25 @@ h3 {
 .all{
     color: white;
         font-size: 16px;
-        font-family: Roboto;
-        font-weight: 500;
-        line-height: 24px;
-        letter-spacing: 0.64px;
-        word-wrap: break-word
+        font-family: 'Roboto', sans-serif;
 }
 .web-site {
     color: #4D5AE5;
         font-size: 16px;
         font-family: Roboto;
-        font-weight: 500;
-        line-height: 24px;
-        letter-spacing: 0.64px;
-        word-wrap: break-word
 }
 .app {
     color: #4D5AE5;
         font-size: 16px;
         font-family: Roboto;
-        font-weight: 500;
-        line-height: 24px;
-        letter-spacing: 0.64px;
-        word-wrap: break-word
 }
 .Desing {
 color: #4D5AE5;
     font-size: 16px;
     font-family: Roboto;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.64px;
-    word-wrap: break-word
 }
 .Marketing {
     color: #4D5AE5;
         font-size: 16px;
         font-family: Roboto;
-        font-weight: 500;
-        line-height: 24px;
-        letter-spacing: 0.64px;
-        word-wrap: break-word
 }
