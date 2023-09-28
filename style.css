@@ -5,20 +5,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 body {
-    font-family: "Roboto", sans-serif,
+    font-family: "Roboto", sans-serif;
     color: var(--text-color);
     background-color: #434445;
-    
 }
 
 :root {
     --main-font-family: "Roboto", sans-serif;
-    --text-color: #434455;
-    --background-color: #FFFFFF;
+    --text-color: #FFFFFF;
+    --background-color: #434445;
 }
 
 h1,
@@ -34,6 +32,22 @@ h3 {
     justify-content: center;
     gap: 10px;
 
+}
+.portfolio-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.portfolio-item {
+    text-align: center;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
 }
 
 .portfolio-filter button {
