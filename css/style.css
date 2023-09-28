@@ -1,11 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: var(--text-color);
+    background-color: var(--background-color);
+
+}
+
+:root {
+    --text-color: #434455;
+    --background-color: #FFFFFF;
+
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+
+}
 
 .portfolio-filter {
     display: flex;
     justify-content: center;
     gap: 10px;
+
 }
 
 .portfolio-filter button {
@@ -15,78 +43,36 @@
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease;
+
 }
 
 .portfolio-filter button:hover {
     background-color: #555;
+
 }
 
-body {
-    font-family: "Roboto", sans-serif;
-    color:#2E2F42;
-    background-color: #F4F4FD;
-}
-
-:root {
-    --text-color: #434455;
-    --background-color: #FFFFFF;
-}
-
-.some-element {
+.All,
+.Website,
+.App,
+.Design,
+.Marketing {
+    font-size: 16px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
+    color: #4D5AE5;
+
 }
 
-.another-element {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-}
-
-.yet-another-element {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 900;
-}
-
-h1,
-h2,
-h3 {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;
-}
-.All{
-    color: white;
-        font-size: 16px;
-        font-family: 'Roboto', sans-serif;
-}
-.Website {
-    color: #4D5AE5;
-        font-size: 16px;
-        font-family: Roboto;
-}
-.App {
-    color: #4D5AE5;
-        font-size: 16px;
-        font-family: Roboto;
-}
-.Desing {
-color: #4D5AE5;
-    font-size: 16px;
-    font-family: Roboto;
-}
-.Marketing {
-    color: #4D5AE5;
-        font-size: 16px;
-        font-family: Roboto;
-}
-.portfolio-button{
-    font-family: "Roboto", sans-serif ; 
+.portfolio-button {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #4D5AE5;
     background-color: #f4f4f4;
-cursor: pointer;
+    cursor: pointer;
+
 }
 
 .nav-logo {
@@ -97,6 +83,8 @@ cursor: pointer;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    text-decoration: none;
+
 }
 
 .nav-link {
@@ -106,42 +94,43 @@ cursor: pointer;
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-decoration: none;
+
 }
 
-.nav-link:hover {
-    color: #404bbf;
-}
-
+.nav-link:hover,
 .nav-link:focus {
     color: #404bbf;
+
 }
 
 .address {
     font-style: normal;
+
 }
 
 .address .list {
-        color: #4D5AE5;
-        font-size: 16px;
-        font-family: "Roboto", sans-serif;
-        font-weight: 500;
-        line-height: 24px;
-        letter-spacing: 0.64px;
-        word-wrap: break-word
+    color: #4D5AE5;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+    word-wrap: break-word;
+
 }
+
 .list-item-link {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:  #434455;
+    color: #434455;
     text-decoration: none;
+
 }
 
-.list-item-link:hover {
-    color: #404bbf;
-}
-
+.list-item-link:hover,
 .list-item-link:focus {
     color: #404bbf;
+
 }
 
 .logo {
@@ -153,28 +142,44 @@ cursor: pointer;
     text-transform: uppercase;
     color: #4D5AE5;
     text-decoration: none;
+
 }
 
 .logo:hover {
     color: #e20909;
+
 }
+
+.some-element {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+
+}
+
+.another-element {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+
+}
+
+.yet-another-element {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+
+}
+
 .web {
-    color: #4D5AE5;
-        font-size: 18px;
-        font-family: Raleway;
-        font-weight: 800;
-        text-transform: uppercase;
-        line-height: 21px;
-        letter-spacing: 0.54px;
-        word-wrap: break-word
+
+    font-size: 18px;
+    font-family: Raleway;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+
 }
-.Studio {
-    color: #2E2F42;
-        font-size: 18px;
-        font-family: Raleway;
-        font-weight: 800;
-        text-transform: uppercase;
-        line-height: 21px;
-        letter-spacing: 0.54px;
-        word-wrap: break-word
+
+.studio {
+    font-size: 18px;
+ 
 }
