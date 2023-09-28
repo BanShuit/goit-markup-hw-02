@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap');
+
 .portfolio-filter {
     display: flex;
     justify-content: center;
@@ -19,7 +22,13 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    color: #434455;
+        background-color: #FFFFFF;
+}
 
+:root {
+    --primary-color: #434455;
+    --background-color: #FFFFFF;
 }
 
 .some-element {
