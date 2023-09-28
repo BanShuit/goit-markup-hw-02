@@ -26,6 +26,21 @@ h3 {
     font-weight: 800;
 
 }
+.portfolio-category {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #777;
+    margin-top: 5px;
+}
+
+.portfolio-heading {
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    color: #fff;
+    margin-top: 10px;
+}
 
 .portfolio-filter {
     display: flex;
