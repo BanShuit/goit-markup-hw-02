@@ -1,249 +1,59 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.body{
+    background-color:  var(--white);
+    color: var(--brand-color);
+    font-style: normal;
+    font-family: 'Roboto' , sans-serif;
 }
-body,
-h1,
-h2,
-h3,
-ul,
-li,
-p,
-a {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font: inherit;
+.logo{
+    color: #4D5AE5;
+        font-size: 18px;
+        font-family: Raleway;
+        font-weight: 800;
 }
-
-body {
-    font-family: Roboto, sans-serif;
-        color: #333;
+.logo-header{
+    color: #2E2F42;
+        font-size: 18px;
+        font-family: Raleway;
+        font-weight: 800;
 }
-
-header {
-    background-color: #0077b6;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-}
-
-h1 {
-    font-size: 32px;
-}
-
-nav ul {
-    list-style: none;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-nav ul li a {
-    text-decoration: none;
-    color: #fff;
-}
-
-:root {
-    font-family: 'Raleway', sans-serif;
-    --text-color: #FFFFFF;
-    --background-color: #434445;
-}
-
-.main {
-    padding: 20px;
-}
-
-.portfolio {
-    text-align: center;
-}
-
-.portfolio h2 {
-    font-size: 24px;
-}
-
-
-
-.portfolio-category {
-    font-size: 16px;
-        font-family: Roboto;
-        font-weight: 400;
-        color: #434455;
-}
-
-.portfolio-heading {
-    font-size: 20px;
+.nav-list{
+    color: #2E2F42;
+        font-size: 16px;
         font-family: Roboto;
         font-weight: 500;
-        color: #2E2F42;
 }
-
-.portfolio-filter {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-
-}
-.portfolio-list {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.portfolio-list li {
-    width: 300px;
-    margin: 20px;
-}
-
-.portfolio-list img {
-    max-width: 100%;
-    height: auto;
-}
-
-.portfolio-list h3 {
-    font-size: 20px;
-    margin: 10px 0;
-}
-
-.portfolio-list p {
-    font-size: 16px;
-}
-
-
-.portfolio-item {
-    text-align: center;
-}
-
-.portfolio-item img {
-    max-width: 100%;
-    height: auto;
-}
-
-.portfolio-filter button {
-    padding: 10px 20px;
-    color: #4D5AE5;
-    border: none;
-    cursor: pointer;
-
-}
-
-.portfolio-filter button:hover {
-    background-color: none ;
-
-}
-
-.portfolio-button {
-    font-family: "Roboto";
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #4D5AE5;
-    background-color: #f4f4f4;
-    cursor: pointer;
-}
-.portfolio-button.All{
-    background: #404BBF;
-    color:#f4f4f4
-    
-}
-.nav-logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-    text-decoration: none;
-
-}
-
-.nav-link {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.32px;
-    color: #2e2f42;
-    text-decoration: none;
-
-}
-
-.nav-link:hover,
-.nav-link:focus {
-    color: #404bbf;
-
-}
-
-.address {
-    font-style: normal;
-
-}
-
-.address .list {
-    color: #4D5AE5;
-    font-size: 16px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.64px;
-    word-wrap: break-word;
-
-}
-
-.list-item-link {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+.contact-list{
     color: #434455;
-    text-decoration: none;
-
+        font-size: 16px;
+        font-family: Roboto;
+        font-weight: 400;
 }
-
-.list-item-link:hover,
-.list-item-link:focus {
-    color: #404bbf;
-
-}
-
-.logo {
-    font-family: "Roboto" ;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.32px;
-    text-transform: uppercase;
+.portfolio-button{
     color: #4D5AE5;
-    text-decoration: none;
-
+        font-size: 16px;
+        font-family: Roboto;
+        font-weight: 500;
 }
-
-.logo:hover {
-    color: #e20909;
-
+.portfolio-heading{
+color: #2E2F42;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 24px;
 }
-
-.web {
-
-    font-size: 18px;
-    font-family: Raleway;
-    font-weight: 800;
-    text-transform: uppercase;
-    line-height: 21px;
-    letter-spacing: 0.54px;
-
+.portfolio-category{
+    color: #434455;
+        font-size: 16px;
+        font-family: Roboto;
+        font-weight: 400;
+        line-height: 24px;
 }
-
-.studio {
-    font-size: 18px;
-
-}
-
 footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
+    padding: 20px;
+    border: 1px solid #2E2F42;
+}
+
+footer p {
+    border: 1px solid #2E2F42;
     padding: 10px;
 }
