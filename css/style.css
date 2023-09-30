@@ -7,7 +7,7 @@
 body {
 font-family:var(--primaryfont) 'ROBOTO' ;
 background-color: var(--whitecolor)
-color: var(var(--primarycolor))
+color: var(--primarycolor);
 }
 
 
