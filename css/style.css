@@ -5,27 +5,11 @@
     --secondarycolor: #4d5ae5;
 }
 body {
-    position: relative;
-    width: auto;
-    height: auto;
-    left: auto;
-    top: auto;
-    box-sizing: content-box;
-    display: block;
-    align-items: normal;
-    padding: initial;
-    flex-direction: row;
-    gap: normal;
-    border-radius: initial;
-    box-shadow: none;
-    order: 0;
-    flex-grow: 0;
-    border-bottom: initial;
+font-family:var(--primaryfont) 'ROBOTO' ;
+background-color: var(--whitecolor)
+color: var(var(--primarycolor))
 }
 
-.your-section-class {
-    background-color: #FFFFFF;
-}
 
 .your-footer-class {
     background-color: #2e2f42;
@@ -150,6 +134,7 @@ body {
 }
 
 .portfolio-button,
+.portfolio-button-second
 .portfolio-button-second {
     line-height: 1.5;
     letter-spacing: 0.04em;
