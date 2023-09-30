@@ -1,21 +1,13 @@
 :root {
-    --primary-band-color: #4d5ae5;
-    --pressed-state-color: #404bbf;
-    --dark-color: #2e2f42;
-    --success-color: #31d0aa;
-    --text-color: #434455;
-    --subtle-text-color: #8e8f99;
-    --accent-color: #e7e9fc;
-    --light-color: #f4f4fd;
-    --modal-overlay-color: #2e2f42;
-    --white-background-color: #FFFFFF;
-    --modal-background-color: #FCFCFC;
+--primaryfont: "Roboto", sans-serif;
+    --primarycolor: #2e2f42;
+    --whitecolor: #ffffff;
+    --secondarycolor: #4d5ae5;
 }
 body {
-    background-color: var(--modal-background-color);
-    color: var(--text-color);
-    font-style: normal;
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--primaryfont);
+        color: #434455;
+        background-color: var(--whitecolor);
 }
 
 .your-section-class {
@@ -161,8 +153,10 @@ color: #2E2F42;
     text-decoration: none;
 }
 ul,
-ol {
+ol,
+a {
     list-style: none;
+    text-decoration: none;
 }
 
 .your-header-class {
