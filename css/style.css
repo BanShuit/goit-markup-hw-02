@@ -89,7 +89,20 @@ body {
 .logo-header-down{
     color: #F4F4FD;
         font-size: 18px;
+            font-family: Raleway;
+            font-weight: 800;
+            text-transform: uppercase;
+            line-height: 21px;
+            letter-spacing: 0.54px;
+}
+.logo-header-down-web{
+    color: #4D5AE5;
+        font-size: 18px;
+        font-family: Raleway;
         font-weight: 800;
+        text-transform: uppercase;
+        line-height: 21px;
+        letter-spacing: 0.54px;
 }
 .nav-list {
     color: var(--primarycolor);
