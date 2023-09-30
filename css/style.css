@@ -5,14 +5,52 @@
     --secondarycolor: #4d5ae5;
 }
 body {
-    font-family: var(--primaryfont);
-    color: var(--primarycolor);
-    background-color: var(--whitecolor);
+    position: relative;
+    width: auto;
+    height: auto;
+    left: auto;
+    top: auto;
+    box-sizing: content-box;
+    display: block;
+    align-items: normal;
+    padding: initial;
+    flex-direction: row;
+    gap: normal;
+    border-radius: initial;
+    box-shadow: none;
+    order: 0;
+    flex-grow: 0;
+    border-bottom: initial;
 }
 
 .your-section-class {
-    background-color: var(--whitecolor);
+    background-color: #FFFFFF;
 }
+
+.section-header {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.section-button {
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.section-button:hover,
+.section-button:focus {
+    background-color: #404BBF;
+}
+
 .text-link {
     font-size: 16px;
     font-family: Roboto;
@@ -30,11 +68,14 @@ body {
     color: #404bbf;
 }
 .logo {
-    color: var(--secondarycolor);
-    font-size: 18px;
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
-    text-decoration: none;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: var(--primarycolor);
+    text-decoration: none;
 }
 .logo-header {
     color: var(--primarycolor);
@@ -74,11 +115,21 @@ body {
 }
 
 .nav-contact {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--primarycolor);
+    text-decoration: none;
+}
+.nav-contact-link {
+    color: #434455;
     font-size: 16px;
     font-family: Roboto;
     font-weight: 400;
     text-decoration: none;
+}
+.nav-contact:hover,
+.nav-contact:focus {
+    color: #404bbf;
 }
 
 .portfolio-button,
@@ -94,6 +145,7 @@ body {
     background: var(--#e7e9fc);
     color: var(--primarycolor);
 }
+
 
 .button-primary {
     background-color: #4D5AE5;
@@ -117,19 +169,20 @@ body {
     font-weight: 500;
     background: var( --Cloud, #F4F4FD)
 }
-.portfolio-heading{
-color: #2E2F42;
+.portfolio-heading {
     font-size: 20px;
-    font-family: Roboto;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
-.portfolio-category{
+.portfolio-category {
     color: #434455;
-        font-size: 16px;
-        font-family: Roboto;
-        font-weight: 400;
-        line-height: 24px;
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 .footer-text {
     color: #f4f4fd;
@@ -148,15 +201,27 @@ color: #2E2F42;
 .list {
     list-style: none;
 }
-.nav-link {
-    color: var(--primarycolor);
+.link {
+    font-weight: 500;
     font-size: 16px;
-    font-family: Roboto;
-    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primarycolor);
     text-decoration: none;
 }
+.link:hover,
+.link:focus {
+    color: #404bbf;
+}
 .nav-link {
+    color: #2E2F42;
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 500;
     text-decoration: none;
+}
+.nav-link:hover {
+    color: #404BBF;
 }
 ul,
 ol,
