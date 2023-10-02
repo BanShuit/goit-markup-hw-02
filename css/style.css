@@ -6,8 +6,9 @@
 }
 body {
 color: var(--primarycolor);
-font-family: var(--primaryfont), 'Roboto', sans-serif;
+font-family: "Roboto", sans-serif; 
 background-color: var(--whitecolor)
+color: var(var(--primaryfont))
 }
 
 
