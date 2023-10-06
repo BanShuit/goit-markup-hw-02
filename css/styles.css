@@ -6,6 +6,20 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.link {
+    text-decoration: none;
+}
+.link:hover {
+    color: var(--marka-color);
+}
+
+.link:active {
+    color: var(--marka-color);
+}
+
+.link:focus {
+    color: var(--marka-color);
+}
 :root {
     --brand-color: #434455;
     --color-text: #2e2f42;
@@ -24,25 +38,6 @@ body {
 
 }
 
-.link {
-    text-decoration: none;
-}
-
-.link {
-    text-decoration: none;
-}
-
-.link:hover {
-    color: var(--marka-color);
-}
-
-.link:active {
-    color: var(--marka-color);
-}
-
-.link:focus {
-    color: var(--marka-color);
-}
 
 .studio-logo {
     color: #2E2F42;
@@ -54,7 +49,6 @@ body {
 
 .nav {
     font-weight: 500;
-    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42
@@ -136,7 +130,8 @@ footer {
     letter-spacing: 0.02em;
 }
 
-.contacts-top:hover .contacts-top:active {
+.contacts-top:hover,
+.contacts-top:active {
     color: var(--marka-color);
 }
 
@@ -153,8 +148,8 @@ footer {
 }
 
 .button-two {
-    background-color: #F4F4FD;
-    color: var(--button-one);
+    background-color: var(--button-one);
+    color: var(--White , #FFFFFF);
     text-align: center;
     cursor: pointer;
     font-family: "Roboto", sans-serif;
@@ -187,14 +182,6 @@ footer {
     color: #2e2f42;
 }
 
-.head-two-selection-selection-two {
-    font-weight: 500;
-    font-size: 20px;
-    letter-spacing: 0.02em;
-    line-height: 1.2;
-    color: #2e2f42;
-}
-
 .paragraph-selection {
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -210,17 +197,11 @@ footer {
     color: var(--color-text);
 }
 
-.my-team {
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
-}
-
 .list-name {
     background-color: #FFFFFF;
+}
+.selection-four {
+    background-color: #F4F4FD;
 }
 .p-selection-four {
     font-size: 16px;
@@ -233,4 +214,11 @@ main a {
 }
 ul.list li button {
     text-decoration: none;
+}
+.four-class-one{
+    color: #434455;
+        font-size: 16px;
+        font-family: Roboto;
+        font-weight: 400;
+        line-height: 24px;
 }
